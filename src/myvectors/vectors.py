@@ -101,6 +101,8 @@ class Segment3D:
             t: float = (overlap_start + overlap_end) / 2
             return p1 + u * t
 
+
+        # Решение системы уравнений на нахождение точки пересечения (поиск параметра)
         sc = (b * e - c * d) / D
         tc = (a * e - b * d) / D
 
